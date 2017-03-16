@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="A Pomodoro Clock">
+    <meta name="author" content="Farewing">
+	<title>Tic Tac Toe</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/01.js"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+
+<div id="myModal" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h1 class="modal-title">Tic Tac Toe</h1>
+			</div>
+			<div class="modal-body">
+				<p id="question"> Pick  X  or  O </p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal" id="xButton">X</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal" id="oButton">O</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="hhModal" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h1 id="over1" class="modal-title"></h1>
+			</div>
+			<div class="modal-body">
+				<p id="over2"></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal" id="sButton">结束</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal" id="gButton">继续</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row panel">
+		<div id="panel00" class="col-md-4"></div>
+		<div id="panel01" class="col-md-4"></div>
+		<div id="panel02" class="col-md-4"></div>
+
+		<div id="panel10" class="col-md-4"></div>
+		<div id="panel11" class="col-md-4"></div>
+		<div id="panel12" class="col-md-4"></div>
+
+		<div id="panel20" class="col-md-4"></div>
+		<div id="panel21" class="col-md-4"></div>
+		<div id="panel22" class="col-md-4"></div>
+	</div>
+</div>
+</body>
+</html>
